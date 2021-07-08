@@ -1,0 +1,20 @@
+{
+    "name": "spryker-feature/marketplace-checkout",
+    "description": "Marketplace Checkout [feature]",
+    "type": "metapackage",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "spryker/dummy-marketplace-payment": "^0.2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "202107.x-dev"
+        }
+    },
+    "suggest": {
+        "spryker-feature/checkout": "Recommended feature dependency."
+    }
+}
